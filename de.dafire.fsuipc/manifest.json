@@ -1,0 +1,68 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/icon",
+      "Name": "Landing Gear",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Toggle landing gear",
+      "UUID": "de.dafire.fsuipc.landinggear",
+      "PropertyInspectorPath": "PropertyInspector/LandingGearActionPI.html"
+    },
+    {
+      "Icon": "Images/icon",
+      "Name": "Pause",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "pause simulator",
+      "UUID": "de.dafire.fsuipc.pause",
+      "PropertyInspectorPath": "PropertyInspector/LandingGearActionPI.html"
+    },
+    {
+      "Icon": "Images/icon",
+      "Name": "TEST",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "bottom",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "test",
+      "UUID": "de.dafire.fsuipc.test",
+      "PropertyInspectorPath": "PropertyInspector/LandingGearActionPI.html"
+    }
+  ],
+  "Author": "Bastian Hoyer",
+  "Name": "FSUIPC",
+  "Description": "This Plugin allows doing stuff with flight simulators using the FSUIPC Software",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://github.de/bhoyer",
+  "Version": "1.0",
+  "CodePath": "de.dafire.fsuipc",
+  "Category": "FSUIPC",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.3"
+  }
+}

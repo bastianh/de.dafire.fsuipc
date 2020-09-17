@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>de.dafire.fsuipc Settings</title>
+    <link rel="stylesheet" href="sdpi.css">
+    <script src="sdtools.common.js"></script>
+    <script src="PluginActionPI.js"></script>
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        
+        <div type="checkbox" class="sdpi-item" id="dvConnected">
+            <div class="sdpi-item-label">FSUIPC</div>
+            <div class="sdpi-item-value">
+                <input id="connected" type="checkbox" class="sdProperty sdCheckbox" disabled="disabled" value="">
+                <label for="connected" class="sdpi-item-label"><span></span>Connected to FlightSimulator</label>
+            </div>
+        </div>
+
+        <details class="message">
+            <summary>
+                <p>* Uses the FSUIPC Client DLL for .NET by Paul Henty <span class="linkspan" onclick="openFSIPCWebsite()">http://fsuipc.paulhenty.com/</span></p>
+                <p>* Uses the BarRaider .NET Library for Stream Deck Plugins. <span class="linkspan" onclick="openWebsite()">https://BarRaider.com</span> </p>
+                <p>* Icons made by Freepik from <span class="linkspan" onclick="openIconWebsite()">www.flaticon.com</span></p>
+            </summary>
+        </details>
+    </div>
+</body>
+</html>
